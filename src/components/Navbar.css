@@ -1,0 +1,30 @@
+header {
+  margin-top: 30px;
+}
+
+.layout-grid {
+  display: grid;
+  grid-column-gap: 20px;
+  padding: 10px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.navbar-grid {
+  grid-column: span 8 / 11;
+  display: flex;
+  justify-content: space-between
+}
+
+.navbar-grid img {
+  max-height: 50px;
+}
+
+.navbar-grid ul {
+  display: flex;
+}
+
+.navbar-grid ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style: none;
+}
