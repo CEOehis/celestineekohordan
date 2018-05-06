@@ -15,6 +15,7 @@ function Jumbotron() {
             <i className="fa fa-linkedin"></i>
           </div>
         </div>
+        <i className="fa fa-angle-double-down animated bounce infinite"></i>
       </div>
     </main>
   )

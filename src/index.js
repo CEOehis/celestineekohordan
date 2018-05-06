@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'normalize.css';
 import 'font-awesome/css/font-awesome.css';
+import 'animate.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 

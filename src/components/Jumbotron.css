@@ -24,3 +24,17 @@
   font-size: 36px;
   margin-right: 30px;
 }
+
+.fa-angle-double-down {
+  font-size: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation-delay: 2s;
+  animation-duration: 5s;
+}
+/*
+* {
+  outline: 1px solid;
+} */
