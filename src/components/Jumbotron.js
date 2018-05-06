@@ -21,7 +21,7 @@ const
       animateScroll = function () {
         const currentDate = +new Date();
         const currentTime = currentDate - startDate;
-        element.scrollTop = parseInt(easeInOutQuad(currentTime, start, change, duration));
+        element.scrollTop = parseInt(easeInOutQuad(currentTime, start, change, duration), 10);
         if (currentTime < duration) {
           requestAnimationFrame(animateScroll);
         }
@@ -44,10 +44,10 @@ function Jumbotron() {
           <h1 className="intro animated fadeInDown">Hello! I'm Celestine.</h1>
           <p className="animated fadeIn">Javascript developer. FOSS enthusiast</p>
           <div className="social-icons animated slideInLeft">
-            <i className="fa fa-github"></i>
-            <i className="fa fa-free-code-camp"></i>
-            <i className="fa fa-stack-overflow"></i>
-            <i className="fa fa-linkedin"></i>
+            <a href="https://github.com/ceoehis"><i className="fa fa-github" /></a>
+            <a href="https://freecodecamp.org/ceoehis"><i className="fa fa-free-code-camp"></i></a>
+            <a href="https://stackoverflow.com/users/8658018/ceoehis"><i className="fa fa-stack-overflow"></i></a>
+            <a href="https://www.linkedin.com/in/celestine-ekoh-ordan-a3427213a/"><i className="fa fa-linkedin"></i></a>
           </div>
         </div>
         <i onClick={scrollDown} className="fa fa-angle-double-down animated bounce infinite"></i>
