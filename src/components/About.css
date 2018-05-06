@@ -1,0 +1,41 @@
+.about {
+  grid-column: span 8 / 11;
+  min-height: calc(100vh - 40px);
+  display: grid;
+  grid-column-gap: 20px;
+  padding: 10px;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.about-item.image-wrap {
+  grid-column: span 4;
+  display: flex;
+  align-content: center;
+}
+
+.about-item.profile {
+  grid-column: span 4;
+  display: flex;
+  align-content: center;
+}
+
+.about-item.profile div {
+  align-self: center;
+}
+
+.about-item.profile a {
+  color: #0E94D3;
+  text-decoration: none;
+}
+
+/* .about-item {
+  width: 50%;
+  padding: 20px;
+} */
+
+.about-item img {
+  border-radius: 50%;
+  max-width: 250px;
+  margin: 0 auto;
+  align-self: center;
+}
