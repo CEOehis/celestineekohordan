@@ -1,0 +1,19 @@
+.bg-blue {
+  background: #0E94D3;
+}
+
+.contact {
+  grid-column: span 8 / 11;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact p {
+  color: #D3CDCD;
+}
