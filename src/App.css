@@ -4,3 +4,13 @@
   padding: 10px;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
+
+.fa-angle-double-up {
+  font-size: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  animation-delay: 2s;
+  animation-duration: 5s;
+  cursor: pointer;
+}
