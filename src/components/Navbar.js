@@ -1,6 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../ceoehis.png';
+import scrollTo from '../utils/animatedScroll';
+
+function scroller(e) {
+  let link = e.target.attributes.href.value;
+  e.preventDefault();
+  scrollTo(document.querySelector(link).offsetTop, 1250);
+}
 
 function Navbar() {
   return (
@@ -9,9 +16,9 @@ function Navbar() {
         <div className="navbar-grid">
           <img src={logo} alt="logo" />
           <ul>
-            <li><a>About</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blog</a></li>
+            <li><a onClick={scroller} href="#about">About</a></li>
+            <li><a onClick={scroller} href="#portfolio">Portfolio</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
       </div>

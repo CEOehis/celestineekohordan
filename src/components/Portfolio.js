@@ -5,7 +5,7 @@ import reactiveWeather from '../reactive-weather.png';
 
 function Portfolio() {
   return (
-    <section className="layout-grid bg-grey">
+    <section className="layout-grid bg-grey" id="portfolio">
       <div className="portfolio">
         <h1 className="portfolio-heading">Portfolio</h1>
         <div className="portfolio-section">
