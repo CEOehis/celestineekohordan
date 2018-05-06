@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Navbar />
         <Jumbotron />
         <About />
+        <Portfolio />
       </div>
     );
   }

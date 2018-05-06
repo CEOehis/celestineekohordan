@@ -1,0 +1,60 @@
+.bg-grey {
+  background: #F7F4F4;
+}
+
+.portfolio {
+  grid-column: span 8 / 11;
+  min-height: calc(100vh - 40px);
+}
+
+.portfolio-heading {
+  font-size: 40px;
+  grid-column: span 8;
+}
+
+.portfolio-section {
+  display: grid;
+  grid-column-gap: 20px;
+  padding: 10px;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+
+.portfolio-item {
+  grid-column: span 4;
+}
+
+.project {
+  padding: 20px;
+}
+
+.project p {
+  line-height: 30px;
+}
+.card {
+  background: white;
+  height: 100%;
+  box-shadow: 0 5px 10px #d6d5d5;
+  border-radius: 5px;
+  transition: all 600ms;
+}
+
+.card:hover {
+  box-shadow: 0 5px 10px #8d8a8a;
+}
+
+.card:hover .card-img {
+  opacity: 1;
+}
+
+.card-img {
+  height: 200px;
+  background: rgb(156, 154, 154);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0.6;
+  transition: all 600ms;
+}
