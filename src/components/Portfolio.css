@@ -59,3 +59,24 @@
   opacity: 0.6;
   transition: all 600ms;
 }
+
+@media only screen and (max-width: 1200px) {
+  .portfolio {
+    grid-column: span 10 / 12;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .portfolio {
+    grid-column: span 12;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .portfolio-item {
+    grid-column: span 8;
+    padding-bottom: 20px;
+  }
+}
+
+

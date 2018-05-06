@@ -13,4 +13,18 @@
   animation-delay: 2s;
   animation-duration: 5s;
   cursor: pointer;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .layout-grid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fa-angle-double-up {
+    font-size: 28px;
+  }
 }

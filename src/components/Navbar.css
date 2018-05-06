@@ -19,10 +19,32 @@ header {
 .navbar-grid ul a {
   color: inherit;
   text-decoration: none;
+  padding: 20px 0;
 }
 
 .navbar-grid ul li {
   margin-left: 20px;
   margin-right: 20px;
   list-style: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar-grid {
+    grid-column: span 10 / 12;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-grid {
+    grid-column: span 12;
+  }
+
+  .navbar-grid ul {
+    padding-left: 0;
+  }
+
+  .navbar-grid ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
