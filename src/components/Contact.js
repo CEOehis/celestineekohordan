@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <section className="layout-grid bg-blue">
+    <section className="layout-grid bg-blue" id="contact">
       <div className="contact">
         <h1>Contact Me</h1>
         <p>I'm available for remote work or freelance projects</p>

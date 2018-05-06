@@ -9,8 +9,13 @@
   font-size: 64px;
   margin: 0;
   margin-top: -100px;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
 }
 
+.fadeIn {
+  animation-delay: 1.5s;
+}
 .jumbotron p {
   margin: 0;
   font-size: 32px;
@@ -18,6 +23,7 @@
 
 .social-icons {
   padding-top: 15px;
+  animation-delay: 2s;
 }
 
 .social-icons .fa {
@@ -34,7 +40,3 @@
   animation-delay: 2s;
   animation-duration: 5s;
 }
-/*
-* {
-  outline: 1px solid;
-} */

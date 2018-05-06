@@ -6,9 +6,9 @@ function Jumbotron() {
     <main className="layout-grid">
       <div className="jumbotron">
         <div>
-          <h1 className="intro">Hello, I'm Celestine!</h1>
-          <p>Javascript developer. FOSS enthusiast</p>
-          <div className="social-icons">
+          <h1 className="intro animated fadeInDown">Hello, I'm Celestine!</h1>
+          <p className="animated fadeIn">Javascript developer. FOSS enthusiast</p>
+          <div className="social-icons animated slideInLeft">
             <i className="fa fa-github"></i>
             <i className="fa fa-free-code-camp"></i>
             <i className="fa fa-stack-overflow"></i>
